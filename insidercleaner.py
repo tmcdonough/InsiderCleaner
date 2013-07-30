@@ -79,6 +79,6 @@ def run_through(cik_list, outfile):
                 boiler_plate()
 
 start = time.clock()
-run_through("CIK_med.csv", "master.csv")
+run_through("CIK_master_clean.csv", "insider_cik_list.csv")
 end = time.clock()
 print "runtime: "+str((end-start)/60)[:7]+" minutes"
